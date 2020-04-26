@@ -12,6 +12,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-graphql',
       options: {
+        typeName: "FFRAPI",
         fieldName: 'boards',
         url: `${process.env.GATSBY_API_URL}`,
       },

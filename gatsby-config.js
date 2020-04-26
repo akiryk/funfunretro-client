@@ -14,7 +14,7 @@ module.exports = {
       options: {
         typeName: "FFRAPI",
         fieldName: 'boards',
-        url: `${process.env.GATSBY_API_URL}`,
+        url: 'https://us-east1-funfunretro-97a35.cloudfunctions.net/api/',
       },
     },
   ],

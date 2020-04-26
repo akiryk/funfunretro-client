@@ -3,7 +3,7 @@ import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = new HttpLink({
-  uri: `${process.env.GATSBY_API_URL}`,
+  uri: 'https://us-east1-funfunretro-97a35.cloudfunctions.net/api/',
   fetch,
 });
 

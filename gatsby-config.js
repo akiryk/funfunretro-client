@@ -3,7 +3,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   /* Your site config here */
@@ -14,7 +16,7 @@ module.exports = {
       options: {
         typeName: "FFRAPI",
         fieldName: 'boards',
-        url: 'https://us-east1-funfunretro-97a35.cloudfunctions.net/api/',
+        url: `${process.env.GATSBY_API_URL}`,
       },
     },
   ],

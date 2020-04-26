@@ -14,11 +14,22 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@apollo/client": "^3.0.0-beta.43",
+    "@apollo/react-hooks": "^3.1.4",
+    "apollo-boost": "^0.4.7",
+    "apollo-link-context": "^1.0.20",
+    "es6-promise": "^4.2.8",
     "gatsby": "^2.20.12",
+    "gatsby-source-graphql": "^2.3.2",
+    "gatsby-theme-apollo": "^3.0.2",
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
     "prettier": "^1.19.1"
   },
   "repository": {
